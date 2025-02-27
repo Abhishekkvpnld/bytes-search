@@ -33,6 +33,7 @@ GET /api/search?query=<search_term>&minPrice=150&maxPrice=200&page=1&limit=10
 2. Create a `.env` file and include the following environment variables:
    ```sh
 MONGODB_URI=mongodb+srv://bytes-backend-challenge:l3EmyPcEixzaV4P6@bytes-challenge.0kukf.mongodb.net/bytes-challenge?retryWrites=true&w=majority
+
 PORT=4000
    ```
 3. Start the backend server:
